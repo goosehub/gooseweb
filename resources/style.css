@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "CheesePizza";
+  src: url(fonts/CheesePizza.ttf) format("truetype");
+} 
+
+body {
+	overflow-x: hidden;
+	font-family: CheesePizza, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	text-shadow: 0.05em 0.05em 0.05em #FFF;
+	text-align: center;
+}
+a {
+	font-size: 1.2em;
+	transition: color .5s linear;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	font-size: 5em;
+}
+h2 {
+	font-size: 3em;
+}
+img {
+	width: 100%;
+}
